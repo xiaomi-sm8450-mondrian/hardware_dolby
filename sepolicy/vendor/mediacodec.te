@@ -3,3 +3,4 @@ binder_call(mediacodec, hal_dms_default)
 hal_client_domain(mediacodec, hal_dms)
 
 allow mediacodec fwk_sensor_hwservice:hwservice_manager find;
+allow mediacodec default_android_hwservice:hwservice_manager find;
